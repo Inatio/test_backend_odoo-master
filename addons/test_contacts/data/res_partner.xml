@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="1">
+
+        <record id='contact_1' model='res.partner'>
+            <field name='name'>Juan Pérez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>35</field>
+        </record>
+        <record id='contact_2' model='res.partner'>
+            <field name='name'>María González</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>20</field>
+        </record>
+        <record id='contact_3' model='res.partner'>
+            <field name='name'>Carlos Rodríguez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>15</field>
+            <field name='y_coordinate'>10</field>
+        </record>
+        <record id='contact_4' model='res.partner'>
+            <field name='name'>Ana Martínez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>30</field>
+            <field name='y_coordinate'>45</field>
+        </record>
+        <record id='contact_5' model='res.partner'>
+            <field name='name'>Pedro Sánchez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>50</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_6' model='res.partner'>
+            <field name='name'>Laura Ramírez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>10</field>
+            <field name='y_coordinate'>5</field>
+        </record>
+        <record id='contact_7' model='res.partner'>
+            <field name='name'>Diego Gómez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>20</field>
+            <field name='y_coordinate'>25</field>
+        </record>
+        <record id='contact_8' model='res.partner'>
+            <field name='name'>Sofia Fernández</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>35</field>
+            <field name='y_coordinate'>40</field>
+        </record>
+        <record id='contact_9' model='res.partner'>
+            <field name='name'>Alejandro López</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>45</field>
+            <field name='y_coordinate'>15</field>
+        </record>
+        <record id='contact_10' model='res.partner'>
+            <field name='name'>Valentina Ruiz</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>5</field>
+            <field name='y_coordinate'>20</field>
+        </record>
+        <record id='contact_11' model='res.partner'>
+            <field name='name'>Gabriel Herrera</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>30</field>
+            <field name='y_coordinate'>10</field>
+        </record>
+        <record id='contact_12' model='res.partner'>
+            <field name='name'>Martina Díaz</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>35</field>
+        </record>
+        <record id='contact_13' model='res.partner'>
+            <field name='name'>Andrés Castro</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>45</field>
+        </record>
+        <record id='contact_14' model='res.partner'>
+            <field name='name'>Camila Alvarez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>15</field>
+            <field name='y_coordinate'>25</field>
+        </record>
+        <record id='contact_15' model='res.partner'>
+            <field name='name'>Lucas Flores</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>20</field>
+            <field name='y_coordinate'>15</field>
+        </record>
+        <record id='contact_16' model='res.partner'>
+            <field name='name'>Paula Ríos</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>35</field>
+            <field name='y_coordinate'>50</field>
+        </record>
+        <record id='contact_17' model='res.partner'>
+            <field name='name'>Martín Ortiz</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>10</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_18' model='res.partner'>
+            <field name='name'>Catalina Torres</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>45</field>
+            <field name='y_coordinate'>40</field>
+        </record>
+        <record id='contact_19' model='res.partner'>
+            <field name='name'>Nicolás Silva</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>5</field>
+            <field name='y_coordinate'>10</field>
+        </record>
+        <record id='contact_20' model='res.partner'>
+            <field name='name'>Fernanda Vargas</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>20</field>
+        </record>
+        <record id='contact_21' model='res.partner'>
+            <field name='name'>Sebastián Mora</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>15</field>
+            <field name='y_coordinate'>35</field>
+        </record>
+        <record id='contact_22' model='res.partner'>
+            <field name='name'>Antonia González</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>30</field>
+            <field name='y_coordinate'>45</field>
+        </record>
+        <record id='contact_23' model='res.partner'>
+            <field name='name'>Pablo Castro</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>50</field>
+            <field name='y_coordinate'>10</field>
+        </record>
+        <record id='contact_24' model='res.partner'>
+            <field name='name'>Isidora Díaz</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_25' model='res.partner'>
+            <field name='name'>Matías Pérez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>20</field>
+            <field name='y_coordinate'>5</field>
+        </record>
+        <record id='contact_26' model='res.partner'>
+            <field name='name'>Valeria Ramírez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>10</field>
+            <field name='y_coordinate'>40</field>
+        </record>
+        <record id='contact_27' model='res.partner'>
+            <field name='name'>Francisco Rojas</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>45</field>
+            <field name='y_coordinate'>25</field>
+        </record>
+        <record id='contact_28' model='res.partner'>
+            <field name='name'>Javiera Sánchez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>35</field>
+            <field name='y_coordinate'>15</field>
+        </record>
+        <record id='contact_29' model='res.partner'>
+            <field name='name'>Ignacio Martínez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>30</field>
+            <field name='y_coordinate'>50</field>
+        </record>
+        <record id='contact_30' model='res.partner'>
+            <field name='name'>Belén Gómez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>5</field>
+            <field name='y_coordinate'>20</field>
+        </record>
+        <record id='contact_31' model='res.partner'>
+            <field name='name'>Tomás Flores</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_32' model='res.partner'>
+            <field name='name'>Consuelo Herrera</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>20</field>
+            <field name='y_coordinate'>10</field>
+        </record>
+        <record id='contact_33' model='res.partner'>
+            <field name='name'>Emilio Alvarez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>45</field>
+        </record>
+        <record id='contact_34' model='res.partner'>
+            <field name='name'>Trinidad Ríos</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>50</field>
+            <field name='y_coordinate'>5</field>
+        </record>
+        <record id='contact_35' model='res.partner'>
+            <field name='name'>Javier Ortiz</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>15</field>
+            <field name='y_coordinate'>40</field>
+        </record>
+        <record id='contact_36' model='res.partner'>
+            <field name='name'>Romina Torres</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>30</field>
+            <field name='y_coordinate'>25</field>
+        </record>
+        <record id='contact_37' model='res.partner'>
+            <field name='name'>Rodrigo Silva</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>45</field>
+            <field name='y_coordinate'>20</field>
+        </record>
+        <record id='contact_38' model='res.partner'>
+            <field name='name'>Carolina Vargas</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>10</field>
+            <field name='y_coordinate'>35</field>
+        </record>
+        <record id='contact_39' model='res.partner'>
+            <field name='name'>David Mora</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>5</field>
+            <field name='y_coordinate'>15</field>
+        </record>
+        <record id='contact_40' model='res.partner'>
+            <field name='name'>Elena González</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>35</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_41' model='res.partner'>
+            <field name='name'>Guillermo Castro</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>20</field>
+            <field name='y_coordinate'>40</field>
+        </record>
+        <record id='contact_42' model='res.partner'>
+            <field name='name'>Renata Díaz</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>5</field>
+        </record>
+        <record id='contact_43' model='res.partner'>
+            <field name='name'>Patricio Pérez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>45</field>
+        </record>
+        <record id='contact_44' model='res.partner'>
+            <field name='name'>Solange Ramírez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>15</field>
+            <field name='y_coordinate'>20</field>
+        </record>
+        <record id='contact_45' model='res.partner'>
+            <field name='name'>Oscar Rojas</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>30</field>
+            <field name='y_coordinate'>35</field>
+        </record>
+        <record id='contact_46' model='res.partner'>
+            <field name='name'>Daniela Sánchez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>50</field>
+            <field name='y_coordinate'>10</field>
+        </record>
+        <record id='contact_47' model='res.partner'>
+            <field name='name'>Nicolás Martínez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_48' model='res.partner'>
+            <field name='name'>Florencia Gómez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>45</field>
+        </record>
+        <record id='contact_49' model='res.partner'>
+            <field name='name'>Lucas Alvarez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>5</field>
+            <field name='y_coordinate'>25</field>
+        </record>
+        <record id='contact_50' model='res.partner'>
+            <field name='name'>Sofía Ríos</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>35</field>
+            <field name='y_coordinate'>15</field>
+        </record>
+        <record id='contact_51' model='res.partner'>
+            <field name='name'>Diego Ortiz</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>10</field>
+            <field name='y_coordinate'>40</field>
+        </record>
+        <record id='contact_52' model='res.partner'>
+            <field name='name'>Laura Torres</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>45</field>
+            <field name='y_coordinate'>20</field>
+        </record>
+        <record id='contact_53' model='res.partner'>
+            <field name='name'>Carlos Vargas</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>20</field>
+            <field name='y_coordinate'>35</field>
+        </record>
+        <record id='contact_54' model='res.partner'>
+            <field name='name'>Ana Silva</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>10</field>
+        </record>
+        <record id='contact_55' model='res.partner'>
+            <field name='name'>Pedro Pérez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_56' model='res.partner'>
+            <field name='name'>María Ramírez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>15</field>
+            <field name='y_coordinate'>5</field>
+        </record>
+        <record id='contact_57' model='res.partner'>
+            <field name='name'>Juan Rojas</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>30</field>
+            <field name='y_coordinate'>25</field>
+        </record>
+        <record id='contact_58' model='res.partner'>
+            <field name='name'>Carla Sánchez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>50</field>
+            <field name='y_coordinate'>40</field>
+        </record>
+        <record id='contact_59' model='res.partner'>
+            <field name='name'>Andrés Martínez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>15</field>
+        </record>
+        <record id='contact_60' model='res.partner'>
+            <field name='name'>Valentina Gómez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>35</field>
+        </record>
+        <record id='contact_61' model='res.partner'>
+            <field name='name'>Gabriel Alvarez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>5</field>
+            <field name='y_coordinate'>20</field>
+        </record>
+        <record id='contact_62' model='res.partner'>
+            <field name='name'>Camila Ríos</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>35</field>
+            <field name='y_coordinate'>45</field>
+        </record>
+        <record id='contact_63' model='res.partner'>
+            <field name='name'>Matías Ortiz</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>10</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_64' model='res.partner'>
+            <field name='name'>Antonia Vargas</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>45</field>
+            <field name='y_coordinate'>10</field>
+        </record>
+        <record id='contact_65' model='res.partner'>
+            <field name='name'>Pablo Silva</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>20</field>
+            <field name='y_coordinate'>25</field>
+        </record>
+        <record id='contact_66' model='res.partner'>
+            <field name='name'>Isabella Pérez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>40</field>
+        </record>
+        <record id='contact_67' model='res.partner'>
+            <field name='name'>Sebastián Ramírez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>15</field>
+        </record>
+        <record id='contact_68' model='res.partner'>
+            <field name='name'>Fernanda Rojas</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>15</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_69' model='res.partner'>
+            <field name='name'>Nicolás Sánchez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>30</field>
+            <field name='y_coordinate'>5</field>
+        </record>
+        <record id='contact_70' model='res.partner'>
+            <field name='name'>Catalina Martínez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>50</field>
+            <field name='y_coordinate'>20</field>
+        </record>
+        <record id='contact_71' model='res.partner'>
+            <field name='name'>Ignacio Gómez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>35</field>
+        </record>
+        <record id='contact_72' model='res.partner'>
+            <field name='name'>Belén Alvarez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>10</field>
+        </record>
+        <record id='contact_73' model='res.partner'>
+            <field name='name'>Tomás Ríos</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>5</field>
+            <field name='y_coordinate'>45</field>
+        </record>
+        <record id='contact_74' model='res.partner'>
+            <field name='name'>Consuelo Ortiz</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>35</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_75' model='res.partner'>
+            <field name='name'>Emilio Vargas</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>20</field>
+            <field name='y_coordinate'>25</field>
+        </record>
+        <record id='contact_76' model='res.partner'>
+            <field name='name'>Trinidad Silva</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>45</field>
+            <field name='y_coordinate'>40</field>
+        </record>
+        <record id='contact_77' model='res.partner'>
+            <field name='name'>Javier Pérez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>15</field>
+            <field name='y_coordinate'>15</field>
+        </record>
+        <record id='contact_78' model='res.partner'>
+            <field name='name'>Romina Ramírez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>30</field>
+            <field name='y_coordinate'>20</field>
+        </record>
+        <record id='contact_79' model='res.partner'>
+            <field name='name'>Rodrigo Rojas</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>50</field>
+            <field name='y_coordinate'>35</field>
+        </record>
+        <record id='contact_80' model='res.partner'>
+            <field name='name'>Carolina Sánchez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>25</field>
+            <field name='y_coordinate'>10</field>
+        </record>
+        <record id='contact_81' model='res.partner'>
+            <field name='name'>David Martínez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>40</field>
+            <field name='y_coordinate'>45</field>
+        </record>
+        <record id='contact_82' model='res.partner'>
+            <field name='name'>Elena Gómez</field>
+            <field name='gender'>female</field>
+            <field name='x_coordinate'>5</field>
+            <field name='y_coordinate'>30</field>
+        </record>
+        <record id='contact_83' model='res.partner'>
+            <field name='name'>Guillermo Alvarez</field>
+            <field name='gender'>male</field>
+            <field name='x_coordinate'>23</field>
+            <field name='y_coordinate'>65</field>
+        </record>
+
+
+    </data>
+
+
+</odoo>

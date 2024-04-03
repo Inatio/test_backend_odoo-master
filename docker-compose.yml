@@ -1,0 +1,39 @@
+version: '3.3'
+services:
+  test-odoo:
+    build: .
+    container_name: test-odoo
+    user: root
+    restart: always
+    depends_on:
+      - test-db
+    ports:
+      - 8069:8069
+      - 8888:8888
+    command: sh -c "python3 -m debugpy --listen 0.0.0.0:8888 /usr/bin/odoo" #poner -i base para inicializar base de datos al final del command, luego quitar
+    expose:
+      - 8069
+    volumes:
+      - ../filestore:/var/lib/odoo/share
+      - ./logs:/var/log/odoo
+      - ./config:/etc/odoo
+      - ./addons:/mnt/extra-addons
+      - ./OCA:/mnt/OCA
+    networks:
+      - test-network
+  test-db:
+    image: postgres:15
+    container_name: test-db
+    volumes:
+      - ../data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=MASTER
+      - POSTGRES_USER=odoo
+      - POSTGRES_PASSWORD=odoo
+    networks:
+      - test-network
+    ports:
+      - '5435:5432'
+networks:
+  test-network:
+    external: true
